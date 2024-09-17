@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website bán nội thất dựng bằng bootstrap</title>
+    <!-- nhúng gg font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- style css -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- navbar -->
+
+    <div class="header">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid navbar__header">
+          <div class="logo__header col-2">
+            <a class="navbar-brand" href="#"
+              ><img src="assets/img/logo.svg" alt=""
+            /></a>
+          </div>
+          <div class="collapse navbar-collapse row" id="navbarNavDropdown">
+            <ul class="navbar-nav col-8">
+              <li class="nav-menu">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-menu">
+                <a class="nav-link" href="#">Shop</a>
+              </li>
+              <li class="nav-menu">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-menu dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Contact
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li class="dropdown-list">
+                    <a class="dropdown-item" href="#">FQA</a>
+                  </li>
+                  <li class="dropdown-list">
+                    <a class="dropdown-item" href="#">Support</a>
+                  </li>
+                  <li class="dropdown-list">
+                    <a class="dropdown-item" href="#">Account</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="navbar-nav col-4">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  ><i class="fa-solid fa-magnifying-glass"></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  ><i class="fa-regular fa-heart"></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  ><i class="fa-solid fa-cart-shopping"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <section class="header__hero">
+        <img
+          class="header__hero--bg"
+          src="./assets/img/bg-header.svg"
+          alt="Discover Our New Collection"
+        />
+        <div class="header__card card-body">
+          <p class="card-text">New Arrival</p>
+          <h1 class="card-title">Discover Our New Collection</h1>
+          <p class="card-text card-text-large">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+            tellus, luctus nec ullamcorper mattis.
+          </p>
+          <a href="#" class="header__btn btn">BUY NOW</a>
+        </div>
+      </section>
+    </div>
+    <!-- Our Range -->
+    <div class="range">
+      <h2 class="range__title">Browse The Range</h2>
+      <p class="range__desc">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      </p>
+      <div class="range__item">
+        <!-- item1 -->
+        <div class="range__card">
+          <div class="range__card--body">
+            <img src="assets/img/card1.svg" class="range__card--img" alt="" />
+            <h3 class="range__card--desc">Dining</h3>
+          </div>
+        </div>
+        <!-- item2 -->
+        <div class="range__card">
+          <div class="range__card--body">
+            <img src="assets/img/card2.svg" class="range__card--img" alt="" />
+            <h3 class="range__card--desc">Living</h3>
+          </div>
+        </div>
+        <!-- item3 -->
+        <div class="range__card">
+          <div class="range__card--body">
+            <img src="assets/img/card3.svg" class="range__card--img" alt="" />
+            <h3 class="range__card--desc">Bedroom</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Process -->
+    <div class="container__process">
+      <h2 class="h2__title process__title">Our Products</h2>
+      <!-- items1 -->
+      <div class="process__item">
+        <!-- card1 -->
+        <div class="process__card">
+          <img
+            src="assets/img/card-img1.svg"
+            class="process__card--img"
+            alt="Our Products"
+          />
+          <div class="card--img--body">
+            <h5 class="card--img--title">Syltherine</h5>
+            <p class="card--img--text">Stylish cafe chair</p>
+            <div class="card--discount">
+              <p class="card--desc--pri">Rp 2.500.000</p>
+              <p class="card--desc--dis">Rp 3.500.000</p>
+            </div>
+          </div>
+          <div class="process__circle--dis">
+            <p class="circle--dis--num">-30%</p>
+          </div>
+        </div>
+        <!-- card2 -->
+        <div class="process__card">
+          <img
+            src="assets/img/card-img2.svg"
+            class="process__card--img"
+            alt="Our Products"
+          />
+          <div class="card--img--body">
+            <h5 class="card--img--title">Leviosa</h5>
+            <p class="card--img--text">Stylish cafe chair</p>
+            <div class="card--discount">
+              <p class="card--desc--pri">Rp 2.500.000</p>
+            </div>
+          </div>
+        </div>
+        <!-- card3 -->
+        <div class="process__card">
+          <img
+            src="assets/img/card-img3.svg"
+            class="process__card--img"
+            alt="Our Products"
+          />
+          <div class="card--img--body">
+            <h5 class="card--img--title">Lolito</h5>
+            <p class="card--img--text">Luxury big sofa</p>
+            <div class="card--discount">
+              <p class="card--desc--pri">Rp 7.000.000</p>
+              <p class="card--desc--dis">Rp 14.000.000</p>
+            </div>
+          </div>
+          <div class="process__circle--dis">
+            <p class="circle--dis--num">-50%</p>
+          </div>
+        </div>
+        <!-- card4 -->
+        <div class="process__card">
+          <img
+            src="assets/img/card-img4.svg"
+            class="process__card--img"
+            alt="Our Products"
+          />
+          <div class="card--img--body">
+            <h5 class="card--img--title">Respira</h5>
+            <p class="card--img--text">Outdoor bar table and stool</p>
+            <div class="card--discount">
+              <p class="card--desc--pri">Rp 500.000</p>
+            </div>
+          </div>
+          <div class="process__circle--new">
+            <p class="circle--dis--num">New</p>
+          </div>
+        </div>
+      </div>
+      <!-- items2 -->
+      <div class="process__item">
+        <!-- card5 -->
+        <div class="process__card">
+          <img
+            src="assets/img/card-img5.svg"
+            class="process__card--img"
+            alt="Our Products"
+          />
+          <div class="card--img--body">
+            <h5 class="card--img--title">Grifo</h5>
+            <p class="card--img--text">Night lamp</p>
+            <div class="card--discount">
+              <p class="card--desc--pri">Rp 1.500.000</p>
+            </div>
+          </div>
+        </div>
+        <!-- card6 -->
+        <div class="process__card">
+          <img
+            src="assets/img/card-img6.svg"
+            class="process__card--img"
+            alt="Our Products"
+          />
+          <div class="card--img--body">
+            <h5 class="card--img--title">Muggo</h5>
+            <p class="card--img--text">Small mug</p>
+            <div class="card--discount">
+              <p class="card--desc--pri">Rp 150.000</p>
+            </div>
+          </div>
+          <div class="process__circle--new">
+            <p class="circle--dis--num">New</p>
+          </div>
+        </div>
+        <!-- card7 -->
+        <div class="process__card">
+          <img
+            src="assets/img/card-img7.svg"
+            class="process__card--img"
+            alt="Our Products"
+          />
+          <div class="card--img--body">
+            <h5 class="card--img--title">Pingky</h5>
+            <p class="card--img--text">Cute bed set</p>
+            <div class="card--discount">
+              <p class="card--desc--pri">Rp 7.000.000</p>
+              <p class="card--desc--dis">Rp 14.000.000</p>
+            </div>
+          </div>
+          <div class="process__circle--dis">
+            <p class="circle--dis--num">-50%</p>
+          </div>
+        </div>
+        <!-- card8 -->
+        <div class="process__card">
+          <img
+            src="assets/img/card-img8.svg"
+            class="process__card--img"
+            alt="Our Products"
+          />
+          <div class="card--img--body">
+            <h5 class="card--img--title">Potty</h5>
+            <p class="card--img--text">Minimalist flower pot</p>
+            <div class="card--discount">
+              <p class="card--desc--pri">Rp 500.000</p>
+            </div>
+          </div>
+          <div class="process__circle--new">
+            <p class="circle--dis--num">New</p>
+          </div>
+        </div>
+      </div>
+      <button type="button" class="btn btn--process">Show More</button>
+    </div>
+
+    <!-- Product -->
+    <div class="container__product">
+      <div class="product">
+        <div class="content__product">
+          <h2 class="h2__title product--title">
+            50+ Beautiful rooms inspiration
+          </h2>
+          <p class="product--desc">
+            Our designer already made a lot of beautiful prototipe of rooms that
+            inspire you
+          </p>
+          <button type="button" class="btn btn--process btn--product">
+            Explore More
+          </button>
+        </div>
+        <div class="hero__content">
+          <div
+            id="carouselExampleIndicators"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="assets/img/slide1.svg"
+                  class="d-block"
+                  alt="50+ Beautiful rooms"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="assets/img/slide2.svg"
+                  class="d-block"
+                  alt="50+ Beautiful rooms"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="assets/img/slide3.svg"
+                  class="d-block"
+                  alt="50+ Beautiful rooms"
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Furniture -->
+    <div class="container__furniture">
+      <div class="furniture__content">
+        <p class="furniture__content--desc">Share your setup with</p>
+        <h2 class="h2__title furniture__content--title">#FuniroFurniture</h2>
+      </div>
+      <div class="furniture__wrapper">
+        <ul class="furniture__carousel">
+          <li class="furniture__carousel--card">
+            <img src="assets/img/img1.svg" alt="FuniroFurniture" class="img1" />
+          </li>
+          <li class="furniture__carousel--card">
+            <img src="assets/img/img2.svg" alt="FuniroFurniture" class="img2" />
+          </li>
+          <li class="furniture__carousel--card">
+            <img src="assets/img/img3.svg" alt="FuniroFurniture" class="img3" />
+          </li>
+          <li class="furniture__carousel--card">
+            <img
+              src="assets/img/img44.svg"
+              alt="FuniroFurniture"
+              class="img4"
+            />
+          </li>
+          <li class="furniture__carousel--card">
+            <img src="assets/img/img5.svg" alt="FuniroFurniture" class="img5" />
+          </li>
+          <li class="furniture__carousel--card">
+            <img src="assets/img/img6.svg" alt="FuniroFurniture" class="img6" />
+          </li>
+          <li class="furniture__carousel--card">
+            <img src="assets/img/img7.svg" alt="FuniroFurniture" class="img7" />
+          </li>
+          <li class="furniture__carousel--card">
+            <img src="assets/img/img8.svg" alt="FuniroFurniture" class="img8" />
+          </li>
+          <li class="furniture__carousel--card">
+            <img src="assets/img/img9.svg" alt="FuniroFurniture" class="img9" />
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <div class="container-fluid">
+      <div class="row footer__row">
+        <div class="col-3">
+          <img
+            src="assets/img/logo-footer.svg"
+            alt="400 University Drive Suite 200 Coral Gables,
+          FL 33134 USA"
+          />
+          <p class="footer__desc">
+            400 University Drive Suite 200 Coral Gables,
+            <br />
+            FL 33134 USA
+          </p>
+        </div>
+        <div class="col-2">
+          <h3 class="h3--title">Links</h3>
+          <ul class="footer__links">
+            <li><a class="footer__links--src" href="#">Home</a></li>
+            <li><a class="footer__links--src" href="#">Shop</a></li>
+            <li><a class="footer__links--src" href="#">About</a></li>
+            <li><a class="footer__links--src" href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-2">
+          <h3 class="h3--title">Help</h3>
+
+          <ul class="footer__links">
+            <li><a class="footer__links--src" href="#">Payment Options</a></li>
+            <li><a class="footer__links--src" href="#">Returns</a></li>
+            <li><a class="footer__links--src" href="#">Privacy Policies</a></li>
+          </ul>
+        </div>
+        <div class="col-5">
+          <h3 class="h3--title">Newsletter</h3>
+          <form>
+            <div class="row mb-3">
+              <div class="col-sm-6">
+                <input
+                  type="email"
+                  class="form--footer"
+                  id="inputEmail"
+                  placeholder="Enter Your Email Address"
+                />
+              </div>
+              <button class="col-sm-3 btn--footer" type="submit" class="btn">
+                SUBSCRIBE
+              </button>
+            </div>
+          </form>
+        </div>
+        <!-- copyright -->
+        <div class="footer__copyright">
+          <p class="footer__copyright-text">2023 furino. All rights reverved</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- bootstrap js -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!-- font awesome js -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"
+      integrity="sha512-6sSYJqDreZRZGkJ3b+YfdhB3MzmuP9R7X1QZ6g5aIXhRvR1Y/N/P47jmnkENm7YL3oqsmI6AK+V6AD99uWDnIw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- js -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

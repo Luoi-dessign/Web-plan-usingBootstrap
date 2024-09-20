@@ -31,9 +31,9 @@
     />
   </head>
   <body>
-    <!-- navbar -->
-
+    <!-- header -->
     <div class="header">
+      <!-- navbar -->
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid navbar__header">
           <div class="logo__header col-2">
@@ -316,80 +316,81 @@
           </button>
         </div>
         <div class="hero__content">
-          <div
-            id="carouselExampleIndicators"
-            class="carousel slide"
-            data-bs-ride="carousel"
-          >
-            <div class="carousel-indicators">
+          <div class="slideImg">
+            <div class="container--img">
               <button
+                class="carousel-control carousel-control-prev"
+                id="left"
                 type="button"
                 data-bs-target="#carouselExampleIndicators"
                 data-bs-slide-to="0"
                 class="active"
                 aria-current="true"
                 aria-label="Slide 1"
-              ></button>
+              >
+                <img src="assets/img/next-btn.svg" alt="" />
+              </button>
+              <div
+                class="panel active"
+                style="background-image: url(assets/img/slide1.svg)"
+              >
+                <div class="bg--content">
+                  <div class="bg--content--desc">
+                    <p class="bg--content--inf">01</p>
+                    <div class="bg--content--line"></div>
+                    <p class="bg--content--inf">Bed Room</p>
+                  </div>
+                  <h3 class="bg--content--h3title">Inner Peace</h3>
+                  <div class="bg--content--cta">
+                    <img src="assets/img/Right 16px.svg" alt="Right CTA" />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="panel"
+                style="background-image: url(assets/img/slide2.svg)"
+              >
+                <div class="bg--content">
+                  <div class="bg--content--desc">
+                    <p class="bg--content--inf">02</p>
+                    <div class="bg--content--line"></div>
+                    <p class="bg--content--inf">Living room</p>
+                  </div>
+                  <h3 class="bg--content--h3title">Inner Peace</h3>
+                  <div class="bg--content--cta">
+                    <img src="assets/img/Right 16px.svg" alt="Right CTA" />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="panel"
+                style="background-image: url(assets/img/slide3.svg)"
+              >
+                <div class="bg--content">
+                  <div class="bg--content--desc">
+                    <p class="bg--content--inf">03</p>
+                    <div class="bg--content--line"></div>
+                    <p class="bg--content--inf">Working room</p>
+                  </div>
+                  <h3 class="bg--content--h3title">Inner Peace</h3>
+                  <div class="bg--content--cta">
+                    <img src="assets/img/Right 16px.svg" alt="Right CTA" />
+                  </div>
+                </div>
+              </div>
               <button
+                class="carousel-control carousel-control-next"
+                id="right"
                 type="button"
                 data-bs-target="#carouselExampleIndicators"
-                data-bs-slide-to="1"
-                aria-label="Slide 2"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#carouselExampleIndicators"
-                data-bs-slide-to="2"
-                aria-label="Slide 3"
-              ></button>
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              >
+                <img src="assets/img/next-btn.svg" alt="" />
+              </button>
             </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img
-                  src="assets/img/slide1.svg"
-                  class="d-block"
-                  alt="50+ Beautiful rooms"
-                />
-              </div>
-              <div class="carousel-item">
-                <img
-                  src="assets/img/slide2.svg"
-                  class="d-block"
-                  alt="50+ Beautiful rooms"
-                />
-              </div>
-              <div class="carousel-item">
-                <img
-                  src="assets/img/slide3.svg"
-                  class="d-block"
-                  alt="50+ Beautiful rooms"
-                />
-              </div>
-            </div>
-            <button
-              class="carousel-control-prev"
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide="prev"
-            >
-              <span
-                class="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button
-              class="carousel-control-next"
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide="next"
-            >
-              <span
-                class="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Next</span>
-            </button>
           </div>
         </div>
       </div>
